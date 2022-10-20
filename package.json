@@ -1,0 +1,33 @@
+{
+  "name": "projetointegradorgrup2",
+  "version": "1.0.0",
+  "description": "primeira versão",
+  "main": "project.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/protectintegrationgrupo02/projetointegradorgrup2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/protectintegrationgrupo02/projetointegradorgrup2/issues"
+  },
+  "homepage": "https://github.com/protectintegrationgrupo02/projetointegradorgrup2#readme",
+  "dependencies": {
+    "@prisma/client": "^4.4.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "notenv": "^2.0.3",
+    "prisma": "^4.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
